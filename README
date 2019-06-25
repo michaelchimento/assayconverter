@@ -1,0 +1,15 @@
+install package by running in terminal:
+
+python [...]/setup.py install
+or
+python3 [...]/setup.py install
+
+run main.py in idle
+
+run convert_assay(path)
+
+path should be a string of the path for the folder which contains the .txt scripts to be converted
+the data will be converted into a singular csv file, which can then be used for analysis
+csv should be saved to desktop, if on a mac at least
+unfortunately there is an extra column in the csv which probably should get deleted before passing it on
+will fix later
